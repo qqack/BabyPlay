@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.qiuiqiu.babyplay">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:label="宝宝识图">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity_see"
+            android:label="@string/Activity_See">
+        </activity>
+        <activity android:name=".Activity_test"
+            android:label="@string/Activity_test">
+        </activity>
+
+        <activity android:name=".Activity_animal"
+            android:label="@string/Activity_animal">
+        </activity>
+        <activity android:name=".Activity_fruit"
+            android:label="@string/Activity_fruit">
+        </activity>
+        <activity android:name=".Activity_trans"
+            android:label="@string/Activity_trans">
+        </activity>
+        <activity android:name=".Activity_color"
+            android:label="@string/Activity_color">
+        </activity>
+        <activity android:name=".Activity_shape"
+            android:label="@string/Activity_shape">
+        </activity>
+        <activity android:name=".Activity_math"
+            android:label="@string/Activity_math">
+        </activity>
+        <activity android:name=".Activity_test2"
+            android:label="@string/Activity_test">
+        </activity>
+        <activity android:name=".Activity_test3"
+            android:label="@string/Activity_test">
+        </activity>
+        
+    </application>
+
+</manifest>

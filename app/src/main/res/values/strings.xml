@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BabyPlay</string>
+    <string name="hello_world">宝宝识图</string>
+
+    <string name="Activity_See">选择篇</string>
+    <string name="Activity_test">测试</string>
+    <string name="Activity_animal">动物类</string>
+    <string name="Activity_fruit">水果类</string>
+    <string name="Activity_shape">形状类</string>
+    <string name="Activity_trans">交通类</string>
+    <string name="Activity_math">数字类</string>
+    <string name="Activity_color">颜色类</string>
+
+
+
+</resources>
